@@ -1,4 +1,3 @@
-import React from 'react';
 import { type Mood } from '../types/journal';
 
 const CONFIG: Record<Mood, { label: string; classes: string }> = {

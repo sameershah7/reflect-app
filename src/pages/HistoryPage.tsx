@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import type { JournalEntry, Mood } from '../types/journal';
 import EntryCard from '../components/EntryCard';
 import { Search } from 'lucide-react';

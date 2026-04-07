@@ -1,4 +1,4 @@
-import React,{useState, useEffect, useCallback } from "react";
+import {useState, useEffect, useCallback } from "react";
 import {Save, ChevronLeft} from "lucide-react";
 import  MoodBadge  from "../components/MoodBadge";
 import type { JournalEntry } from "../types/journal";

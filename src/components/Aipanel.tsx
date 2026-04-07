@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Sparkles, Loader2 } from 'lucide-react';
 import type { MoodAnalysis } from '../types/journal';
 import { MOOD_LIGHT, MOOD_DOT } from './MoodBadge';

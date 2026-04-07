@@ -1,4 +1,3 @@
-import React from "react";
 import type {JournalEntry } from "../types/journal";
 import MoodBadge from "./MoodBadge";
 import { Trash2 } from "lucide-react"

@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import  { useMemo } from 'react';
 import type { JournalEntry, Mood } from '../types/journal';
 import MoodBadge from '../components/MoodBadge';
 import { MOOD_LIGHT, MOOD_DOT } from '../components/MoodBadge';
@@ -39,7 +39,6 @@ export default function InsightsPage({ entries: allEntries }: Props) {
         return days;
     }, [allEntries]);
 
-    const maxCount = Math.max(...Object.values(moodCounts).map(Number), 1);
 
     return (
         <div className="flex-1 overflow-y-auto p-6">
